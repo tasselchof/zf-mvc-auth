@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.4.4 - TBD
+## 1.5.1 - TBD
 
 ### Added
+
+- Nothing.
+
+### Changed
 
 - Nothing.
 
@@ -19,6 +23,31 @@ All notable changes to this project will be documented in this file, in reverse 
 ### Fixed
 
 - Nothing.
+
+## 1.5.0 - 2018-05-02
+
+### Added
+
+- [#137](https://github.com/zfcampus/zf-mvc-auth/pull/137) adds support for zend-permissions-rbac 3.0.
+
+- [#137](https://github.com/zfcampus/zf-mvc-auth/pull/137) adds support for PHP 7.1 and 7.2.
+
+### Changed
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- [#137](https://github.com/zfcampus/zf-mvc-auth/pull/137) removes support for HHVM.
+
+### Fixed
+
+- [#136](https://github.com/zfcampus/zf-mvc-auth/pull/136) provides changes to the `OAuth2Adapter` that prevent hitting
+  the database twice when the token is valid.
 
 ## 1.4.3 - 2016-09-30
 

@@ -6,9 +6,9 @@
 
 namespace ZF\MvcAuth\Identity;
 
-use Zend\Permissions\Rbac\Role as AbstractRbacRole;
+use Zend\Permissions\Rbac\Role;
 
-class GuestIdentity extends AbstractRbacRole implements IdentityInterface
+class GuestIdentity extends Role implements IdentityInterface
 {
     protected static $identity = 'guest';
 

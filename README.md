@@ -1,7 +1,8 @@
 ZF MVC Auth
 ===========
 
-[![Build Status](https://travis-ci.org/zfcampus/zf-mvc-auth.png)](https://travis-ci.org/zfcampus/zf-mvc-auth)
+[![Build Status](https://secure.travis-ci.org/zfcampus/zf-mvc-auth.svg?branch=master)](https://secure.travis-ci.org/zfcampus/zf-mvc-auth)
+[![Coverage Status](https://coveralls.io/repos/github/zfcampus/zf-mvc-auth/badge.svg?branch=master)](https://coveralls.io/github/zfcampus/zf-mvc-auth?branch=master)
 
 Introduction
 ------------
@@ -256,7 +257,7 @@ Example:
 > As an example:
 >
 > ```php
-> `authorization` => [
+> 'authorization' => [
 >     'deny_by_default' => true,
 >     'ZF\\OAuth2\\Controller\\Auth' => [
 >         'actions' => [
@@ -294,7 +295,7 @@ the behavior of the `deny_by_default` key (discussed above) will be assumed.
 Below is an example:
 
 ```php
-`authorization` => [
+'authorization' => [
     'Controller\Service\Name' => [
         'actions' => [
             'action' => [
